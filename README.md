@@ -48,6 +48,7 @@ php -r "unlink('install-ja-lang.php');"
 ・　https://github.com/KSuzuki2016/laravel-jetstream-lang-ja <br>
 ・　https://github.com/takehirotakiuchi/laravel-8-resources-lang-ja <br>
 上記repositoryからja.jsonを落としてきてresources/lang/配下に設置する。 <br>
+※当然だがこのrepositoryのものを丸々使っても良い <br>
 
 今回これでもログアウトが日本語化されなかったのでja.jsonに記述を追加して対応した。
 
