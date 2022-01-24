@@ -37,6 +37,12 @@ config/app.phpを書き換える
 'fallback_locale' => 'ja',
 'faker_locale' => 'ja_JP',
 ```
+langの追加
+```
+php -r "copy('https://readouble.com/laravel/8.x/ja/install-ja-lang-files.php', 'install-ja-lang.php');"
+php -f install-ja-lang.php
+php -r "unlink('install-ja-lang.php');"
+```
 
 これだけだとjetstreamは日本語化されないので <br>
 ・　https://github.com/KSuzuki2016/laravel-jetstream-lang-ja <br>
