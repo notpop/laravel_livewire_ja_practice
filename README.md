@@ -1,4 +1,4 @@
-Laravel + jetstream + livewire を試しに触ってみて日本語化までやったサンプルです
+Laravel8 + jetstream + livewire を試しに触ってみて日本語化までやったサンプルです
 
 Laravelをインストール
 ```
