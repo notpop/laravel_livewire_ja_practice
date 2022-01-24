@@ -37,9 +37,9 @@ config/app.phpを書き換える
 'faker_locale' => 'ja_JP',
 ```
 
-これだけだとjetstreamは日本語化されないので
-・　https://github.com/KSuzuki2016/laravel-jetstream-lang-ja
-・　https://github.com/takehirotakiuchi/laravel-8-resources-lang-ja
-上記repositoryからja.jsonを落としてきてresources/lang/配下に設置する。
+これだけだとjetstreamは日本語化されないので <br>
+・　https://github.com/KSuzuki2016/laravel-jetstream-lang-ja <br>
+・　https://github.com/takehirotakiuchi/laravel-8-resources-lang-ja <br>
+上記repositoryからja.jsonを落としてきてresources/lang/配下に設置する。 <br>
 
 今回これでもログアウトが日本語化されなかったのでja.jsonに記述を追加して対応した。
