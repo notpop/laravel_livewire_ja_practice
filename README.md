@@ -43,3 +43,7 @@ config/app.phpを書き換える
 上記repositoryからja.jsonを落としてきてresources/lang/配下に設置する。 <br>
 
 今回これでもログアウトが日本語化されなかったのでja.jsonに記述を追加して対応した。
+
+
+さらに参考までにロゴを下記からコピーして置き換えるとロゴを変更できる
+https://tablericons.com/
