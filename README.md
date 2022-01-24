@@ -7,6 +7,7 @@ curl -s "https://laravel.build/example-app?with=mysql" | bash
 
 dockerを起動
 ```
+cd example-app
 sail up -d
 ```
 
